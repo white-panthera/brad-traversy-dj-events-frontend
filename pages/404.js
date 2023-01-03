@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 // Import Layout
-import Layout from "../components/Layout";
+import Layout from "@/components/Layout";
 
 // React Icons
 import { FaExclamationTriangle } from "react-icons/fa";
 
 // Styles
-import styles from "../styles/404.module.css";
+import styles from "@/styles/404.module.css";
 
 export default function NotFoundPage() {
   return (
