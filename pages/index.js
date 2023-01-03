@@ -1,14 +1,10 @@
-import Head from "next/head";
+// Import Layout
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>DJ Events</title>
-        <meta name="description" content="Welcome to DJ Events" />
-      </Head>
-
+    <Layout>
       <h1>Home</h1>
-    </div>
+    </Layout>
   );
 }
