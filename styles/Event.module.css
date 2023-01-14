@@ -1,0 +1,74 @@
+.event {
+    position: relative;
+    padding-top: 40px;   
+}
+
+.event h3 {
+    font-size: 25px;
+}
+
+.event p {
+    margin: 10px 0;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.controls {
+    position: absolute;
+    right: 0rem;
+    top: 0;
+    display: flex;
+}
+
+.delete {
+    margin-left: 0.5rem;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 7.5rem;
+    justify-content: space-evenly;    
+    font-weight: 500;
+    
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+}
+
+.delete:hover {
+    color: #f4a700;
+}
+
+.edit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 6rem;
+    justify-content: space-between;
+    font-weight: 500;
+    
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+}
+
+.edit:hover {
+    color: #f4a700;
+}
+
+.back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    width: 6rem;
+    justify-content: space-evenly;
+    color: #5a5a5a;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+}
+
+.back:hover {
+    color: #f4a700;
+}
